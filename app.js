@@ -4,10 +4,10 @@ class CatClick {
   }
 
   init() {
-    let catEl = document.querySelector(".cat-img");
+    let cats = document.querySelector(".cats");
     // initialize counts to show to be zero
     this.getCountEL().innerHTML = this.count;
-    catEl.addEventListener("click", () => {
+    cats.addEventListener("click", () => {
       this.updateCount();
     });
   }
