@@ -1,0 +1,10 @@
+.container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clicks {
+  text-align: center;
+  font-size: 5em;
+}
